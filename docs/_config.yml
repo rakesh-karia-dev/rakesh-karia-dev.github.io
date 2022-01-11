@@ -36,7 +36,6 @@ plainwhite:
   sitemap: true
   dark_mode: true
   html_lang: "en"
-  search: true
   portfolio_image: "assets/rk_p.jpg"
 
   social_links:
