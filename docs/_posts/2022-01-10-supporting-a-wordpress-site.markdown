@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Supporting A WordPress Site (Part 1)"
+title:  "Supporting A WordPress Site"
 date:   2022-01-10 18:16:00 +0000
 categories: wordpress mysql hosting
 ---
@@ -15,7 +15,7 @@ The flipside of this particular coin is that a free, massively popular, hugely c
 - If I make changes to my local site, how do I then get those changes into the production site? Is there a publish mechanism?
 - What about changes to the data? How do I deal with a development **MySQL** database which is different from the production one? 
 
-This post charts my five day journey to answer just the first of these questions. I start as a **WordPress** noob and end a **WordPress** noob, albeit one who managed to derive an answer to the question (that worked for me).
+This post charts my five day journey to answer some of these questions. I start as a **WordPress** noob and end a **WordPress** noob, albeit one who managed to make a bit more sense of how to develop with WordPress (in a way that worked for me).
 
 ### So what makes this tick?
 
@@ -109,7 +109,7 @@ You should also ensure that the apache directory configuration for your website 
 
 Don't forget to restart apache to pick these changes up.
 
-### Give it a whirl
+### Success?
 
 At this point, you should find that navigating to the relevant address in your browser brings up a fully functioning copy of your website, but one which is now hosted locally.
 
